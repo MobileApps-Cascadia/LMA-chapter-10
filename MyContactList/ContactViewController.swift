@@ -17,6 +17,8 @@ class ContactViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view
         
+        // Add a Center Anchor Constraint myStack.centerXAnchor.constraintEqualToAnchor(view.centerXAnchor).active=true;
+        
         
     }
 
