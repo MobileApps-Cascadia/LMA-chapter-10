@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  MyContactList
 //
 //  Created by Brian Bansenauer on 5/4/15.
@@ -8,11 +8,16 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ContactViewController: UIViewController {
 
+    @IBOutlet weak var myStack: UIStackView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

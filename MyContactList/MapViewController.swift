@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  MyContactList
 //
 //  Created by Brian Bansenauer on 5/4/15.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class MapViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view
+    
     }
 
     override func didReceiveMemoryWarning() {
